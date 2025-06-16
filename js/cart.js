@@ -1,15 +1,10 @@
-// cart.js
+import {MyProducts} from './produtArry.js';
 
 document.addEventListener("DOMContentLoaded", () => {
-  // products data - অবশ্যই products.js এর সাথে একই ডাটা রাখতে হবে
-  const products = [
-    { id: 1, name: "Laptop Pro X", price: 1200, image: "img/laptop.jpg" },
-    { id: 2, name: "Wireless Headphones", price: 150, image: "img/headphones.jpg" },
-    { id: 3, name: "Smartphone Ultra", price: 899, image: "img/phone.jpg" },
-    { id: 4, name: "Smart Watch S2", price: 299, image: "img/watch.jpg" }
-  ];
 
-  // localStorage থেকে কার্ট ডাটা নিয়ে আসা (না থাকলে খালি অ্যারে)
+
+
+
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
   const cartItemsContainer = document.getElementById("cart-items");
@@ -20,9 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("cart", JSON.stringify(cart));
   }
 
-  // কার্ট থেকে প্রোডাক্টের তথ্য পেতে ফাংশন
+
   function getProductById(id) {
-    return products.find(p => p.id === id);
+    return MyProducts.find(p => p.id === id);
   }
 
   // কার্ট UI আপডেট ফাংশন
