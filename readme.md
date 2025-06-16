@@ -12,12 +12,15 @@
 
 ## 📌 Features
 
-- ✅ Responsive layout using Bootstrap 5
-- ✅ Homepage with Hero Section, Categories, and Featured Products
-- ✅ Product listing with search and sort (by price)
-- ✅ Individual Product Details page (structure only)
-- ✅ Static Cart, Login, Register pages
-- ✅ Clean and simple component-based file structure
+- 🏠 Beautiful Home Page with Hero Section and Categories
+- 📦 Product Listing Page with:
+  - ✅ Search by Product Name
+  - 🔽 Sort by Price (Low to High, High to Low)
+- 🛍️ Cart Page (UI only)
+- 🔐 Login & Register Forms (No backend)
+- 📄 Product Details Page (via query params)
+- 🎨 Clean and modern UI using Bootstrap 5
+- 📱 Fully responsive for mobile and tablet
 
 
 ---
@@ -62,3 +65,9 @@ You can clone or download the repository and run it locally in your browser.
 
 ```bash
 git clone https://github.com/your-username/programershop.git
+
+
+## ✨ Author
+
+Developed with ❤️ by **[Md Zihad Mia](https://github.com/ZihadDevVault)**  
+Feel free to connect or contribute.
