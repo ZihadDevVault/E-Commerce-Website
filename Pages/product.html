@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Products | ProgramerShop</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">ProgramerShop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./product.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./cart.html">Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./register.html">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Title -->
+  <section class="py-4 bg-light text-center">
+    <div class="container">
+      <h2 class="fw-bold">🛒 All Products</h2>
+    </div>
+  </section>
+
+  <!-- Filters and Search -->
+  <section class="py-3">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-6">
+          <select class="form-select" id="sort-select">
+            <option value="">Sort by</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="name">Product Name</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control" id="search-input" placeholder="Search products..." />
+        </div>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="row" id="product-grid">
+        <!-- JavaScript will load products here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+   <footer class="bg-light text-center text-lg-start mt-5">
+  <div class="container p-4">
+    <div class="row">
+
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">ProgramerShop</h5>
+        <p>
+          Your one-stop shop for all your tech and gadget needs. Quality products at great prices.
+        </p>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Quick Links</h5>
+        <ul class="list-unstyled mb-0">
+       <li><a href="../index.html" class="text-dark">Home</a></li>
+          <li><a href="./product.html" class="text-dark">Products</a></li>
+          <li><a href="./cart.html" class="text-dark">Cart</a></li>
+          <li><a href="./login.html" class="text-dark">Login</a></li>
+          <li><a href="./register.html" class="text-dark">Register</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Contact</h5>
+        <ul class="list-unstyled mb-0">
+          <li>Email: engr.zihadmia@gmail.com</li>
+          <li>Phone: 01998582338</li>
+          <li>Address: Dhaka, Bangladesh</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center p-3 bg-dark text-white">
+    &copy; 2025 ProgramerShop. All rights reserved.
+  </div>
+</footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/producs.js"></script>
+</body>
+</html>
