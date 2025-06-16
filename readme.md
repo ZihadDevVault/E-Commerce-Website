@@ -55,7 +55,7 @@ ProgramerShop/
 - CSS3
 - Bootstrap 5 (CDN)
 - JavaScript ES6 (Modules)
-- [Lorem Image Generator](https://picsum.photos/)
+
 
 ---
 
